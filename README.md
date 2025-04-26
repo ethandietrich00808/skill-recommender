@@ -31,72 +31,16 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-# Skill Recommender
-
-This project helps users track their skills and income potential.
-
-## Running with Docker
-
-### Prerequisites
-- Docker installed on your machine
-
-### Steps to Run
-1. Clone the repository:
-```bash
-git clone https://github.com/ethandietrich00808/skill-recommender.git
-cd skill-recommender
-```
-
-2. Build the Docker image:
-```bash
-docker build -t skill-recommender .
-```
-
-3. Run the container:
-```bash
-docker run -p 3000:3000 skill-recommender
-```
-
-4. Open your browser and navigate to:
-```
-http://localhost:3000
-```
-
-## Development Setup
-
-### Prerequisites
-- Node.js (v14 or higher)
-- npm (v6 or higher)
-
-### Installation
-1. Clone the repository
-2. Install dependencies:
-```bash
-npm install
-```
-
-### Running the Development Server
-```bash
-npm start
-```
-
-The application will be available at http://localhost:3000
-
-### Building for Production
-```bash
-npm run build
-```

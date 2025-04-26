@@ -109,12 +109,13 @@ const SkillsIncomeTracker: React.FC = () => {
           <Box sx={{ mb: 2 }}>
             <Autocomplete
               options={skillDatabase}
-              getOptionLabel={(option) => option.name}
-              onChange={(_, value) => handleAddSkill(value)}
-              renderInput={(params) => (
+              getOptionLabel={(option: Skill) => option.name}
+              onChange={(event: React.SyntheticEvent, value: Skill | null) => handleAddSkill(value)}
+              renderInput={(params: any) => (
                 <TextField
                   {...params}
                   label="Search for a skill"
+                  variant="outlined"
                   fullWidth
                 />
               )}
